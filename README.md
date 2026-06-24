@@ -5,7 +5,7 @@ A React-based Workshop Registration & Participant Management Dashboard.
 ---
 
 ## 🚀 Live Demo
-https://your-vercel-link.vercel.app
+https://workshop-registration-app-tau.vercel.app/
 
 ---
 
