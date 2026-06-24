@@ -1,16 +1,55 @@
-# React + Vite
+# 📝 Workshop Registration App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A React-based Workshop Registration & Participant Management Dashboard.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Live Demo
+https://your-vercel-link.vercel.app
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Features
 
-## Expanding the Oxlint configuration
+- Workshop registration form
+- Stores participant data in browser (LocalStorage)
+- Prevent duplicate registrations (email/contact check)
+- Success & error confirmation messages
+- Event-wise registration tracking
+- Search participants
+- Delete participant entry
+- Download participant list as CSV
+- Responsive modern UI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## 🛠 Tech Stack
+
+- React.js
+- JavaScript (ES6)
+- HTML5 + CSS3
+- Vite
+- LocalStorage (No backend)
+- Vercel (Deployment)
+
+---
+
+## 📦 How it works
+
+1. User fills registration form  
+2. Data is stored in LocalStorage  
+3. Duplicate entries are blocked  
+4. Admin can search/delete participants  
+5. Data can be exported as CSV  
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using **Vercel CI/CD** connected to GitHub.
+
+---
+
+## 👨‍💻 Author
+
+Built as a college project for workshop management system.
